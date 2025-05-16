@@ -126,57 +126,57 @@ pesos = {
     ('BloqueD', 'BloqueI'): 171.19,
     ('BloqueD', 'BloqueJ'): 350.0,
     ('BloqueD', 'BloqueK'): 246.0,
-    ('BloqueD', 'BloqueL'): 1,
-    ('BloqueD', 'BloqueM'): 1,
-    ('BloqueD', 'CentroMedico'): 1,
-
-    ('BloqueD', 'Coliseo'): 1,
-    ('BloqueD', 'OficinaDelEgresado'): 1,
-    ('BloqueD', 'Puerta11B'): 1,
-    ('BloqueD', 'Puerta4'): 1,
-    ('BloqueD', 'Puerta7'): 1,
-    ('BloqueE', 'BambúColaboradores'): 1,
-    ('BloqueE', 'BambúJ'): 1,
-    ('BloqueE', 'BloqueF'): 1,
-    ('BloqueE', 'BloqueG'): 1,
-    ('BloqueE', 'BloqueI'): 1,
-    ('BloqueE', 'BloqueJ'): 1,
-    ('BloqueE', 'BloqueK'): 1,
-    ('BloqueE', 'BloqueL'): 1,
-    ('BloqueE', 'BloqueM'): 1,
-    ('BloqueE', 'CentroMedico'): 1,
-    ('BloqueE', 'Coliseo'): 1,
-    ('BloqueE', 'OficinaDelEgresado'): 1,
-    ('BloqueE', 'Puerta11B'): 1,
-    ('BloqueE', 'Puerta4'): 1,
-    ('BloqueE', 'Puerta7'): 1,
-    ('BloqueF', 'BambúColaboradores'): 1,
-    ('BloqueF', 'BambúJ'): 1,
-    ('BloqueF', 'BloqueG'): 1,
-    ('BloqueF', 'BloqueI'): 1,
-    ('BloqueF', 'BloqueJ'): 1,
-    ('BloqueF', 'BloqueK'): 1,
-    ('BloqueF', 'BloqueL'): 1,
-    ('BloqueF', 'BloqueM'): 1,
-    ('BloqueF', 'CentroMedico'): 1,
-    ('BloqueF', 'OficinaDelEgresado'): 1,
-    ('BloqueF', 'Puerta11B'): 1,
-    ('BloqueF', 'Puerta4'): 1,
-    ('BloqueF', 'Puerta7'): 1,
-    ('BloqueG', 'BambúColaboradores'): 1,
-    ('BloqueG', 'BambúJ'): 1,
-    ('BloqueG', 'BloqueI'): 1,
-    ('BloqueG', 'BloqueJ'): 1,
-    ('BloqueG', 'BloqueK'): 1,
-    ('BloqueG', 'BloqueL'): 1,
-    ('BloqueG', 'BloqueM'): 1,
-    ('BloqueG', 'CentroMedico'): 1,
-    ('BloqueG', 'Coliseo'): 1,
-    ('BloqueG', 'OficinaDelEgresado'): 1,
-    ('BloqueG', 'Puerta11B'): 1,
-    ('BloqueG', 'Puerta4'): 1,
-    ('BloqueG', 'Puerta7'): 1,
-
+    
+    ('BloqueD', 'BloqueL'): 239,
+    ('BloqueD', 'BloqueM'): 296,
+    ('BloqueD', 'CentroMedico'): 272,
+    ('BloqueD', 'Coliseo'): 224,
+    ('BloqueD', 'OficinaDelEgresado'): 189,		
+    ('BloqueD', 'Puerta11B'): 399,
+    ('BloqueD', 'Puerta4'): 94.6,
+    ('BloqueD', 'Puerta7'): 175,
+    ('BloqueE', 'BambúColaboradores'): 269,
+    ('BloqueE', 'BambúJ'): 402,
+    ('BloqueE', 'BloqueF'): 16.7,
+    ('BloqueE', 'BloqueG'): 141,
+    ('BloqueE', 'BloqueI'): 168,
+    ('BloqueE', 'BloqueJ'): 330,
+    ('BloqueE', 'BloqueK'): 252,
+    ('BloqueE', 'BloqueL'): 203,
+    ('BloqueE', 'BloqueM'): 241,
+    ('BloqueE', 'CentroMedico'): 176,
+    ('BloqueE', 'Coliseo'): 172,
+    ('BloqueE', 'OficinaDelEgresado'): 227,
+    ('BloqueE', 'Puerta11B'): 333,
+    ('BloqueE', 'Puerta4'): 135,
+    ('BloqueE', 'Puerta7'): 124,
+    ('BloqueF', 'BambúColaboradores'): 263,
+    ('BloqueF', 'BambúJ'): 359,
+    ('BloqueF', 'BloqueG'): 115,
+    ('BloqueF', 'BloqueI'): 122,
+    ('BloqueF', 'BloqueJ'): 320,
+    ('BloqueF', 'BloqueK'): 219,
+    ('BloqueF', 'BloqueL'): 179,
+    ('BloqueF', 'BloqueM'): 205,
+    ('BloqueF', 'CentroMedico'):205,
+    ('BloqueF', 'OficinaDelEgresado'): 230,
+    ('BloqueF', 'Puerta11B'): 317,
+    ('BloqueF', 'Puerta4'): 146,
+    ('BloqueF', 'Puerta7'): 106,
+    ('BloqueG', 'BambúColaboradores'): 394,
+    ('BloqueG', 'BambúJ'): 314,
+    ('BloqueG', 'BloqueI'): 84.9,
+    ('BloqueG', 'BloqueJ'): 227,
+    ('BloqueG', 'BloqueK'): 230,
+    ('BloqueG', 'BloqueL'): 218,
+    ('BloqueG', 'BloqueM'): 183,
+    ('BloqueG', 'CentroMedico'): 297,
+    ('BloqueG', 'Coliseo'): 77.8,
+    ('BloqueG', 'OficinaDelEgresado'): 336,
+    ('BloqueG', 'Puerta11B'): 247,
+    ('BloqueG', 'Puerta4'): 251,
+    ('BloqueG', 'Puerta7'): 57,
+    
     ('BloqueI', 'BambúColaboradores'): 223.78,
     ('BloqueI', 'BambúJ'): 198.66,
     ('BloqueI', 'BloqueJ'): 180.06,
@@ -227,63 +227,63 @@ pesos = {
     ('CasaEstudio', 'Biblioteca'): 12.2,
     ('CasaEstudio', 'BloqueA'): 100.89,
 
-    ('CasaEstudio', 'BloqueB'): 1,
+('CasaEstudio', 'BloqueB'): 260,
+    ('CasaEstudio', 'BloqueC'): 350,
+    ('CasaEstudio', 'BloqueD'): 130,
+    ('CasaEstudio', 'BloqueE'): 240,
+    ('CasaEstudio', 'BloqueF'): 190,
+    ('CasaEstudio', 'BloqueG'): 300,
+    ('CasaEstudio', 'BloqueI'): 400,
+    ('CasaEstudio', 'BloqueJ'): 550,
+    ('CasaEstudio', 'BloqueK'): 500,
+    ('CasaEstudio', 'BloqueL'): 350,
+    ('CasaEstudio', 'BloqueM'): 450,
+    ('CasaEstudio', 'CentroMedico'): 270,
+    ('CasaEstudio', 'Coliseo'): 500,
+    ('CasaEstudio', 'OficinaDelEgresado'): 300,
+    ('CasaEstudio', 'Puerta11B'): 550,
+    ('CasaEstudio', 'Puerta4'): 30,
+    ('CasaEstudio', 'Puerta7'): 260,
+    ('CentroMedico', 'BambúColaboradores'): 60,
+    ('CentroMedico', 'BambúJ'): 350,
+    ('CentroMedico', 'BloqueI'): 120,
+    ('CentroMedico', 'BloqueJ'): 300,
+    ('CentroMedico', 'BloqueK'): 220,
+    ('CentroMedico', 'BloqueL'): 90,
+    ('CentroMedico', 'BloqueM'): 400,
+    ('CentroMedico', 'Coliseo'): 300,
+    ('CentroMedico', 'OficinaDelEgresado'): 40,
+    ('CentroMedico', 'Puerta11B'): 320,
+    ('CentroMedico', 'Puerta4'): 270,
+    ('CentroMedico', 'Puerta7'): 300,
+    ('Coliseo', 'BambúColaboradores'): 320,
+    ('Coliseo', 'BambúJ'): 220,
+    ('Coliseo', 'BloqueF'): 300,
+    ('Coliseo', 'OficinaDelEgresado'): 280,
+    ('Coliseo', 'Puerta11B'): 200,
+    ('Puerta11B', 'BambúColaboradores'): 300,
+    ('Puerta11B', 'BambúJ'): 50,
+    ('Puerta11B', 'OficinaDelEgresado'): 280,
+    ('Puerta4', 'BambúColaboradores'): 230,
+    ('Puerta4', 'BambúJ'): 650,
+    ('Puerta4', 'BloqueC'): 200,
+    ('Puerta4', 'Coliseo'): 480,
+    ('Puerta4', 'OficinaDelEgresado'): 250,
+    ('Puerta4', 'Puerta11B'): 600,
+    ('Puerta7', 'BambúColaboradores'): 320,
+    ('Puerta7', 'BambúJ'): 430,
+    ('Puerta7', 'Coliseo'): 220,
+    ('Puerta7', 'OficinaDelEgresado'): 300,
+    ('Puerta7', 'Puerta11B'): 390,
+    ('Puerta7', 'Puerta4'): 260,
 
-    ('CasaEstudio', 'BloqueC'): 1,
-    ('CasaEstudio', 'BloqueD'): 1,
-    ('CasaEstudio', 'BloqueE'): 1,
-    ('CasaEstudio', 'BloqueF'): 1,
-    ('CasaEstudio', 'BloqueG'): 1,
-    ('CasaEstudio', 'BloqueI'): 1,
-    ('CasaEstudio', 'BloqueJ'): 1,
-    ('CasaEstudio', 'BloqueK'): 1,
-    ('CasaEstudio', 'BloqueL'): 1,
-    ('CasaEstudio', 'BloqueM'): 1,
-    ('CasaEstudio', 'CentroMedico'): 1,
-    ('CasaEstudio', 'Coliseo'): 1,
-    ('CasaEstudio', 'OficinaDelEgresado'): 1,
-    ('CasaEstudio', 'Puerta11B'): 1,
-    ('CasaEstudio', 'Puerta4'): 1,
-    ('CasaEstudio', 'Puerta7'): 1,
-    ('CentroMedico', 'BambúColaboradores'): 1,
-    ('CentroMedico', 'BambúJ'): 1,
-    ('CentroMedico', 'BloqueI'): 1,
-    ('CentroMedico', 'BloqueJ'): 1,
-    ('CentroMedico', 'BloqueK'): 1,
-    ('CentroMedico', 'BloqueL'): 1,
-    ('CentroMedico', 'BloqueM'): 1,
-    ('CentroMedico', 'Coliseo'): 1,
-    ('CentroMedico', 'OficinaDelEgresado'): 1,
-    ('CentroMedico', 'Puerta11B'): 1,
-    ('CentroMedico', 'Puerta4'): 1,
-    ('CentroMedico', 'Puerta7'): 1,
-    ('Coliseo', 'BambúColaboradores'): 1,
-    ('Coliseo', 'BambúJ'): 1,
-    ('Coliseo', 'BloqueF'): 2,
-    ('Coliseo', 'OficinaDelEgresado'): 1,
-    ('Coliseo', 'Puerta11B'): 1,
-    ('Puerta11B', 'BambúColaboradores'): 1,
-    ('Puerta11B', 'BambúJ'): 1,
-    ('Puerta11B', 'OficinaDelEgresado'): 1,
-    ('Puerta4', 'BambúColaboradores'): 1,
-    ('Puerta4', 'BambúJ'): 1,
-    ('Puerta4', 'BloqueC'): 4,
-    ('Puerta4', 'Coliseo'): 1,
-    ('Puerta4', 'OficinaDelEgresado'): 1,
-    ('Puerta4', 'Puerta11B'): 1,
-    ('Puerta7', 'BambúColaboradores'): 1,
-    ('Puerta7', 'BambúJ'): 1,
-    ('Puerta7', 'Coliseo'): 1,
-    ('Puerta7', 'OficinaDelEgresado'): 1,
-    ('Puerta7', 'Puerta11B'): 1,
-    ('Puerta7', 'Puerta4'): 850,
 }
 
 # Crear las conexiones a partir del diccionario de pesos
 for (nodo1, nodo2), peso in pesos.items():
     universidad.add_edge(nodo1, nodo2, weight=peso)
 
-# Coordenadas manuales
+# Coordenadas manuales en el mapa de la U
 pos = {
     'CasaEstudio': (610, 182),
     'Biblioteca': (650, 265),
@@ -361,8 +361,7 @@ def mostrar_camino_mas_corto(G, positions):
     # Actualizar el canvas
     canvas.draw()
 
-
-# Obtener etiquetas de distancias
+# Obtener etiquetas de distancias (pesos)
 labels = nx.get_edge_attributes(universidad, 'weight')
 
 # Crear el frame para los controles
@@ -386,6 +385,39 @@ buscar_button = tk.Button(
 )
 buscar_button.grid(row=0, column=4, padx=10)
 
+
+# Dibujar algunas aristas específicas
+aristas_a_dibujar = [
+    ('BloqueB', 'BloqueC'),
+    ('BloqueC', 'BloqueD'),
+    ('Biblioteca', 'BloqueA'),
+    ('BloqueA', 'BloqueL'),
+    ('BloqueA', 'CentroMedico'),
+    ('BambúJ', 'OficinaDelEgresado'),
+    ('BloqueM', 'Puerta11B'),
+    ('BloqueK', 'Coliseo'),
+    ('BambúColaboradores', 'Puerta4'),
+    ('BloqueE', 'Puerta7'),
+    ('OficinaDelEgresado', 'CasaEstudio'),
+    ('BloqueM', 'BloqueD'),
+    ('BloqueI', 'BloqueF'),
+    ('BloqueK', 'BloqueB'),
+    ('BloqueM', 'Puerta4'),
+    ('Coliseo', 'BloqueG'),
+    ('BloqueL', 'BloqueJ'),
+    ('BloqueI', 'BloqueG'),
+    ('BambúColaboradores', 'OficinaDelEgresado'),
+    ('BloqueG', 'BloqueM'),
+
+]
+
+# Dibujar las aristas seleccionadas
+nx.draw_networkx_edges(universidad, pos, edgelist=aristas_a_dibujar, ax=ax, edge_color='black')
+# Filtrar solo los labels de las aristas a dibujar
+edge_labels_completos = nx.get_edge_attributes(universidad, 'weight')
+edge_labels_filtrados = {arista: peso for arista, peso in edge_labels_completos.items() if arista in aristas_a_dibujar or (arista[1], arista[0]) in aristas_a_dibujar}
+nx.draw_networkx_edge_labels(universidad, pos, edge_labels=edge_labels_filtrados, font_size=8, ax=ax)
+
 # Dibujar el grafo
 #nx.draw(universidad, pos, with_labels=True, node_color='red', node_size=200, font_size=6)
 #nx.draw_networkx_edge_labels(universidad, pos, edge_labels=labels, font_size=4)
@@ -403,11 +435,3 @@ canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
 plt.title("Mapa de la universidad")
 root.mainloop()
 #plt.show()
-
-
-
-
-
-
-
-

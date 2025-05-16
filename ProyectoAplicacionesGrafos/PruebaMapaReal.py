@@ -1,7 +1,9 @@
 import tkinter as tk
 from tkinter import messagebox
+
 import osmnx as ox
 import networkx as nx
+
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.image as mpimg
@@ -20,9 +22,9 @@ G = ox.graph_from_place('Universidad del Norte, Barranquilla, Colombia', network
 pos = {node: (data['x'], data['y']) for node, data in G.nodes(data=True)}
 
 # Cargar imagen del mapa
-imagen_fondo = mpimg.imread('MapaUninorte.png')  # Asegúrate que sea el correcto
+imagen_fondo = mpimg.imread('MapaUninorte.png')  # Asegúrate de tener la imagen en el mismo directorio
 
-# --- Aquí cambiamos: obtener límites de los nodos manualmente ---
+# Obtener límites de los nodos manualmente
 x_values = [data['x'] for node, data in G.nodes(data=True)]
 y_values = [data['y'] for node, data in G.nodes(data=True)]
 west, east = min(x_values), max(x_values)
@@ -31,6 +33,8 @@ south, north = min(y_values), max(y_values)
 # Dibujar la imagen de fondo con los bounds del grafo
 ax.imshow(imagen_fondo, extent=[west, east + (east - west) * 0.7, south, north], zorder=0)
 
+# Guardar límites originales del eje
+limites_originales = ax.axis()
 
 # Variables globales
 origen = None
@@ -66,12 +70,14 @@ def mostrar_camino_mas_corto():
         shortest_path = nx.dijkstra_path(G, source=origen, target=destino, weight='length')
 
         ax.clear()
-        ax.imshow(imagen_fondo, extent=[west, east, south, north], zorder=0)
-
+        ax.imshow(imagen_fondo, extent=[west, east + (east - west) * 0.7, south, north], zorder=0)
         nx.draw(G, pos, ax=ax, node_size=10, node_color='blue', edge_color='gray', with_labels=False)
 
         path_edges = list(zip(shortest_path, shortest_path[1:]))
         nx.draw_networkx_edges(G, pos, edgelist=path_edges, edge_color='green', width=3, ax=ax)
+
+        # Restaurar límites originales
+        ax.axis(limites_originales)
 
         canvas.draw()
 
@@ -89,10 +95,13 @@ def limpiar_seleccion():
     origen = None
     destino = None
     ax.clear()
-    ax.imshow(imagen_fondo, extent=[west, east, south, north], zorder=0)
+    ax.imshow(imagen_fondo, extent=[west, east + (east - west) * 0.7, south, north], zorder=0)
     nx.draw(G, pos, ax=ax, node_size=10, node_color='blue', edge_color='gray', with_labels=False)
-    canvas.draw()
 
+    # Restaurar límites originales
+    ax.axis(limites_originales)
+
+    canvas.draw()
 
 # Integrar matplotlib en Tkinter
 canvas = FigureCanvasTkAgg(fig, master=root)
@@ -108,8 +117,6 @@ limpiar_button.pack()
 
 # Mostrar mapa inicial
 nx.draw(G, pos, ax=ax, node_size=10, node_color='blue', edge_color='gray', with_labels=False)
-labels = {node: str(node) for node in G.nodes()}
-#nx.draw_networkx_labels(G, pos, labels, font_size=6, ax=ax)
 canvas.draw()
 
 # Mostrar ventana

@@ -43,6 +43,10 @@ Ambas versiones utilizan una GUI hecha con Tkinter para seleccionar origen, dest
 ## 🧭 Features
 
 ### 🌍 Versión 1 — Grafo Real (OSMnx)
+
+![Menú Principal](https://raw.githubusercontent.com/pjosed/ProyectoAplicacionesGrafos/main/Assets/Img1GRAFOS.png)
+
+
 Esta versión:
 
 - Descarga o carga el grafo del campus desde OSMnx  

@@ -44,7 +44,7 @@ Ambas versiones utilizan una GUI hecha con Tkinter para seleccionar origen, dest
 
 ### 🌍 Versión 1 — Grafo Real (OSMnx)
 
-![Menú Principal](https://raw.githubusercontent.com/pjosed/ProyectoAplicacionesGrafos/main/Assets/Img1GRAFOS.png)
+![Menú Principal](https://raw.githubusercontent.com/pjosed/ProyectoAplicacionesGrafos/main/Assets/Img2GRAFOS.png)
 
 
 Esta versión:
@@ -56,6 +56,9 @@ Esta versión:
 - Muestra errores o mensajes emergentes (messagebox)
 
 ## 🏫 Versión 2 — Grafo Manual
+
+![Menú Principal](https://raw.githubusercontent.com/pjosed/ProyectoAplicacionesGrafos/main/Assets/Img1GRAFOS.png)
+
 
 Esta implementación crea un grafo completamente personalizado para modelar la Universidad del Norte, permitiendo control total sobre la lógica de rutas:
 

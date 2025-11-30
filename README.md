@@ -1,4 +1,4 @@
-# 🗺️ UniPathFinder — Shortest Path Finder Using Graph Theory
+# 🗺️ UniPathFinder — Shortest Path Finder usando teoría de grafos
 
 **Python | Graph Theory | NetworkX | OSMnx | Tkinter | GUI | Pathfinding**
 
@@ -30,15 +30,13 @@ Ambas versiones utilizan una GUI hecha con Tkinter para seleccionar origen, dest
 
 ---
 
-## 🧠 Core Concepts Applied
+## 🧠 Conceptos fundamentales aplicados:
 
 - ✔ Algoritmos de grafos  
 - ✔ Cálculo de distancias mínimas (Dijkstra / A*)  
 - ✔ Modelado de nodos y aristas  
 - ✔ Manipulación de grafos reales (OSMnx)  
 - ✔ Visualización dinámica sobre mapas  
-- ✔ Manejo de eventos e imágenes en Tkinter  
-- ✔ Integración gráfica con Matplotlib  
 
 ---
 
@@ -51,9 +49,9 @@ Esta versión:
 - Simplifica nodos y caminos  
 - Calcula rutas con NetworkX  
 - Dibuja el mapa y la ruta calculada  
-- Se integra con Tkinter mediante `FigureCanvasTkAgg`  
 - Muestra errores o mensajes emergentes (messagebox)
-## 🏫 Versión 2 — Grafo Manual (Custom Distances)
+
+## 🏫 Versión 2 — Grafo Manual
 
 Esta implementación crea un grafo completamente personalizado para modelar la Universidad del Norte, permitiendo control total sobre la lógica de rutas:
 
@@ -64,11 +62,9 @@ Esta implementación crea un grafo completamente personalizado para modelar la U
 - Visualización de la ruta sobre el mapa base **MapaUninorte.png**  
 - GUI intuitiva para seleccionar origen y destino  
 
-Ideal para mostrar dominio completo del modelo matemático y de estructuras de datos.
-
 ---
 
-## 🎨 Graphical User Interface (GUI)
+  ## 🎨 Interfaz gráfica (GUI)
 
 Ambas versiones incluyen una interfaz construida con Tkinter que permite:
 
